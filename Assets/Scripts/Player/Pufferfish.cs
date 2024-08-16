@@ -34,10 +34,11 @@ public class Pufferfish : MonoBehaviour
 
     void PuffUp()
     {
-        if(Input.GetMouseButtonDown(1))
+        if(Input.GetMouseButton(1))
         {
-            transform.localScale *= 1.1f;
-            power += 0.5f;
+            if(power >= 13f) return;
+            transform.localScale *= 1.01f;
+            power += 0.1f;
         }
     }
 }
