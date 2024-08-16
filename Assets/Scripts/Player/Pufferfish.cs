@@ -20,6 +20,9 @@ public class Pufferfish : MonoBehaviour
     void Update()
     {
         HuffOut();
+    }
+    void FixedUpdate()
+    {
         PuffUp();
     }
 
@@ -38,8 +41,8 @@ public class Pufferfish : MonoBehaviour
         if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 13f) return;
-            transform.localScale *= 1.01f;
-            power += 0.1f;
+            transform.localScale *= 1.1f;
+            power += 1f;
         }
     }
 
