@@ -9,5 +9,4 @@ public class LookAtTarget : MonoBehaviour
     {
         transform.LookAt(target);
     }
-
 }

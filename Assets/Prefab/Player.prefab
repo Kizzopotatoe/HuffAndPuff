@@ -311,7 +311,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.342872, y: 0.342872, z: 0.342872}
+  m_LocalScale: {x: -0.2, y: -0.2, z: -0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2633312532876967576}
@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 381407107065970946}
   - component: {fileID: 6265426873818970074}
   - component: {fileID: 4946251588223483483}
+  - component: {fileID: 5795721322645782610}
   - component: {fileID: 4964849370308476576}
   m_Layer: 0
   m_Name: Pufferfish
@@ -410,7 +411,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 523953147006672328}
@@ -499,7 +500,7 @@ Rigidbody:
   m_GameObject: {fileID: 7450573260501782567}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -517,6 +518,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 96
   m_CollisionDetection: 0
+--- !u!114 &5795721322645782610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450573260501782567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a10b5b31ec7344a91ae29065d2a654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0
+  basePower: 1
 --- !u!114 &4964849370308476576
 MonoBehaviour:
   m_ObjectHideFlags: 0

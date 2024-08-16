@@ -3,7 +3,7 @@ using UnityEngine;
 public class FollowMouse : MonoBehaviour
 {
     private Vector3 position;
-    public float offset = 3f;
+    public float offset = 10f;
 
     // Update is called once per frame
     void Update()
