@@ -6,6 +6,7 @@ public class Pufferfish : MonoBehaviour
     public float power;
     public float basePower;
     private Vector3 baseSize;
+    public LayerMask waterLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -34,11 +35,16 @@ public class Pufferfish : MonoBehaviour
 
     void PuffUp()
     {
-        if(Input.GetMouseButton(1))
+        if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 13f) return;
             transform.localScale *= 1.01f;
             power += 0.1f;
         }
+    }
+
+    private bool InWater()
+    {
+        return Physics.CheckSphere(this.transform.position, 0.5f, waterLayer);
     }
 }
