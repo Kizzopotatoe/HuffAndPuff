@@ -303,6 +303,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectibles: 0
+  source: {fileID: 6473028896058927708}
+  clip: {fileID: 8300000, guid: 288cd7013305e0745962e32b0dc84811, type: 3}
 --- !u!82 &6473028896058927708
 AudioSource:
   m_ObjectHideFlags: 0
