@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class Pufferfish : MonoBehaviour
 {
@@ -52,7 +51,7 @@ public class Pufferfish : MonoBehaviour
     {
         if(Input.GetMouseButton(1) && InWater())
         {
-            if(power >= 13f) return;
+            if(power >= 14f) return;
             transform.localScale *= 1.1f;
             power += 1f;
         }
