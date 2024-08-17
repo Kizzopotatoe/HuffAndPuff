@@ -37,7 +37,7 @@ public class BuoyancyObject : MonoBehaviour
                 // Check if the collider is on the water layer
                 if(hit.gameObject.layer == LayerMask.NameToLayer("Water"))
                 {
-                    float waterSurfaceY = hit.bounds.max.y; // Get the top y point of the water
+                    float waterSurfaceY = hit.bounds.center.y; // Get the top y point of the water
                     float difference = floaters[i].position.y - waterSurfaceY;
 
                     if (difference < 0)
