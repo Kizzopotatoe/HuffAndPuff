@@ -6,6 +6,7 @@ public class Pufferfish : MonoBehaviour
 
     private float horizontal;       //Stores horizontal movement variable
     public float speed;         //Stores movement speed value
+    public bool bigMode;
 
     public float power;     //The current power of the players push
     public float basePower;     //The default power of the players push
@@ -27,6 +28,7 @@ public class Pufferfish : MonoBehaviour
         rb = FindObjectOfType<Rigidbody>();
         baseSize = transform.localScale;
         power = basePower;
+        bigMode = false;
     }
 
     // Update is called once per frame
@@ -48,10 +50,12 @@ public class Pufferfish : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             rb.AddRelativeForce(0, 0, -power, ForceMode.Impulse);
+            source.PlayOneShot(exhaleClip);
+
+            if(bigMode == true) return;
+
             transform.localScale = baseSize;
             power = basePower;
-
-            source.PlayOneShot(exhaleClip);
         }
     }
 
@@ -64,7 +68,7 @@ public class Pufferfish : MonoBehaviour
         }
         if(Input.GetMouseButton(1) && InWater())
         {
-            if(power >= 14f) return;
+            if(power >= 14f && bigMode == false) return;
             transform.localScale *= 1.1f;
             power += 1f;
         }
