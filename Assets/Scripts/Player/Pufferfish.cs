@@ -6,7 +6,7 @@ public class Pufferfish : MonoBehaviour
 
     private float horizontal;       //Stores horizontal movement variable
     public float speed;         //Stores movement speed value
-    public bool bigMode;
+    public bool bigMode;        //Boolean that checks if the player is in BIG MODE
 
     public float power;     //The current power of the players push
     public float basePower;     //The default power of the players push
@@ -70,8 +70,8 @@ public class Pufferfish : MonoBehaviour
         {
             if(power >= 14f && bigMode == false) return;
             if(power >=30f) return;
-            transform.localScale *= 1.1f;
-            power += 1f;
+            transform.localScale *= 1.07f;
+            power += 0.7f;
         }
     }
 
@@ -98,6 +98,7 @@ public class Pufferfish : MonoBehaviour
 
         if(other.gameObject.CompareTag("SuperWater"))
         {
+            //When the player enters 'super water' big mode is enabled
             bigMode = true;
 
             source.PlayOneShot(splash);

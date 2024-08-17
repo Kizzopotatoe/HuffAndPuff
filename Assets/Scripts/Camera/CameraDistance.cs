@@ -22,7 +22,7 @@ public class CameraDistance : MonoBehaviour
             CinemachineComponentBase componentBase = virtualCamera.GetCinemachineComponent(CinemachineCore.Stage.Body);
             if (componentBase is CinemachineFramingTransposer)
             {
-                (componentBase as CinemachineFramingTransposer).m_CameraDistance = 25;
+                (componentBase as CinemachineFramingTransposer).m_CameraDistance = 30f;
             }
         }
     }

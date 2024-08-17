@@ -180,8 +180,9 @@ GameObject:
   - component: {fileID: 4946251588223483483}
   - component: {fileID: 5795721322645782610}
   - component: {fileID: 4964849370308476576}
-  - component: {fileID: 6473028896058927708}
   - component: {fileID: 4287861738413937967}
+  - component: {fileID: 4677873286968596491}
+  - component: {fileID: 6473028896058927708}
   m_Layer: 0
   m_Name: Pufferfish
   m_TagString: Player
@@ -290,6 +291,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4237644033335195017}
+--- !u!114 &4287861738413937967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450573260501782567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f14968a49b6ab48a9b5ac63988e93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floaters:
+  - {fileID: 3390714196265676254}
+  underWaterDrag: 3
+  underWaterAngularDrag: 1
+  airDrag: 1
+  airAngularDrag: 0.05
+  floatingPower: 15
+--- !u!114 &4677873286968596491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450573260501782567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374d0fb964dd25c4a806b4ba96256ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectibles: 0
 --- !u!82 &6473028896058927708
 AudioSource:
   m_ObjectHideFlags: 0
@@ -387,22 +420,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4287861738413937967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7450573260501782567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f14968a49b6ab48a9b5ac63988e93d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floaters:
-  - {fileID: 3390714196265676254}
-  underWaterDrag: 3
-  underWaterAngularDrag: 1
-  airDrag: 1
-  airAngularDrag: 0.05
-  floatingPower: 15
