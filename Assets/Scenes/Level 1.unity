@@ -6410,8 +6410,9 @@ GameObject:
   - component: {fileID: 1560402307}
   - component: {fileID: 1560402306}
   - component: {fileID: 1560402305}
+  - component: {fileID: 1560402308}
   m_Layer: 4
-  m_Name: SUPAH WATAH
+  m_Name: SUPER WATER
   m_TagString: SuperWater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6503,6 +6504,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560402303}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1560402308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560402303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70ff791a517b2d4f8e033d09b515d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 767526188}
 --- !u!1001 &1698106620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6841,7 +6855,7 @@ PrefabInstance:
         type: 3}
       propertyPath: floaters.Array.data[0]
       value: 
-      objectReference: {fileID: 1876243177}
+      objectReference: {fileID: 0}
     - target: {fileID: 5795721322645782610, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
       propertyPath: exhaleClip
@@ -6968,12 +6982,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 824164017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1876243177 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3390714196265676254, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1830456328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1898482136
 GameObject:
   m_ObjectHideFlags: 0
