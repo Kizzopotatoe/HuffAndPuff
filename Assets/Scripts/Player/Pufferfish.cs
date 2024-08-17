@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class Pufferfish : MonoBehaviour
 {
     private Rigidbody rb;       //Reference to the players rigidbody component
 
     private float horizontal;       //Stores horizontal movement variable
+    private float vertical;       //Stores vertical movement variable
     public float speed;         //Stores movement speed value
     public bool bigMode;        //Boolean that checks if the player is in BIG MODE
 
@@ -19,6 +21,8 @@ public class Pufferfish : MonoBehaviour
     public AudioClip exhaleClip;        //Reference to the exhale audio clip
     public AudioClip boing;         //Reference to the boing audio clip
     public AudioClip splash;        //Reference to the splash audio clip
+
+    public Animator animator;
 
 
 
@@ -37,7 +41,17 @@ public class Pufferfish : MonoBehaviour
         HuffOut();
 
         horizontal = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(horizontal * speed, 0, 0);
+        vertical = Input.GetAxisRaw("Vertical");
+        rb.AddForce(horizontal * speed, vertical * speed, 0);
+
+        if(horizontal == 0 && vertical == 0)
+        {
+            animator.SetBool("isWiggling", false);
+        }
+        if(horizontal != 0 || vertical != 0)
+        {
+            animator.SetBool("isWiggling", true);
+        }
 
         if(InWater())
         {
@@ -63,6 +77,8 @@ public class Pufferfish : MonoBehaviour
 
             if(bigMode == true) return;
 
+            animator.SetBool("isInflated", false);
+
             transform.localScale = baseSize;
             power = basePower;
             
@@ -81,9 +97,11 @@ public class Pufferfish : MonoBehaviour
             if(power >= 14f && bigMode == false) return;
             if(power >=30f) return;
 
+            animator.SetBool("isInflated", true);
+            animator.SetBool("isWiggling", false);
+
             transform.localScale *= 1.07f;
-            power += 0.7f;
-            
+            power += 0.7f; 
         }
     }
 
