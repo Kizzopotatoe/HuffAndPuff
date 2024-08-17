@@ -69,7 +69,7 @@ public class Pufferfish : MonoBehaviour
         if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 14f && bigMode == false) return;
-            if(power >=25f) return;
+            if(power >=30f) return;
             transform.localScale *= 1.1f;
             power += 1f;
         }
