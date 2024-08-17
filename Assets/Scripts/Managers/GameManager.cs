@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public GameObject completedLevelMenu;
+    public bool hasCompletedLevel = false;
 
     private void Awake()
     {

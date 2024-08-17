@@ -25,5 +25,10 @@ public class ScoreManager : MonoBehaviour
 
         // When level has been completed
         timerTextWhenCompleted.text = currentTime.ToString("0.00");
+
+        if (GameManager.Instance.hasCompletedLevel)
+        {
+            timerText.gameObject.SetActive(false);
+        }
     }
 }
