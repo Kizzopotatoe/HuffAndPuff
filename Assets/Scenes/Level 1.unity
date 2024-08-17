@@ -2249,6 +2249,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 824164017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &834402029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3390714196265676254, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1830456328}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &857188573
 GameObject:
   m_ObjectHideFlags: 0
@@ -4570,6 +4576,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 824164017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1817079588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7450573260501782567, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1830456328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1817079589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817079588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f14968a49b6ab48a9b5ac63988e93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floaters:
+  - {fileID: 834402029}
+  underWaterDrag: 3
+  underWaterAngularDrag: 1
+  airDrag: 0
+  airAngularDrag: 0.05
+  floatingPower: 8
+  waterLayer:
+    serializedVersion: 2
+    m_Bits: 16
 --- !u!1001 &1830456328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4652,7 +4686,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7450573260501782567, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1817079589}
   m_SourcePrefab: {fileID: 100100000, guid: 0c7494b228bcf2147935eab2cb7e4eb6, type: 3}
 --- !u!1 &1867016524
 GameObject:

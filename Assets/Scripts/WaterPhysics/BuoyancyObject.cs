@@ -13,8 +13,6 @@ public class BuoyancyObject : MonoBehaviour
     public float airAngularDrag = 0.05f;
     public float floatingPower = 15f;
 
-    public float waterHeight;
-
     private Rigidbody rb;
 
     private bool isUnderwater;
@@ -31,18 +29,29 @@ public class BuoyancyObject : MonoBehaviour
         floatersUnderwater = 0;
         for (int i = 0; i < floaters.Length; i++)
         {
-            float difference = floaters[i].position.y - waterHeight;
+            // Check for any water collisions around the puffer position
+            Collider[] hits = Physics.OverlapSphere(floaters[i].position, 0.05f);
 
-            if (difference < 0)
+            foreach(Collider hit in hits)
             {
-                rb.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), floaters[i].position, ForceMode.Force);
-                floatersUnderwater += 1;
-                if (!isUnderwater)
+                // Check if the collider is on the water layer
+                if(hit.gameObject.layer == LayerMask.NameToLayer("Water"))
                 {
-                    isUnderwater = true;
-                    SwitchState(true);
+                    float waterSurfaceY = hit.bounds.max.y; // Get the top y point of the water
+                    float difference = floaters[i].position.y - waterSurfaceY;
+
+                    if (difference < 0)
+                    {
+                        rb.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), floaters[i].position, ForceMode.Force);
+                        floatersUnderwater += 1;
+                        if (!isUnderwater)
+                        {
+                            isUnderwater = true;
+                            SwitchState(true);
+                        }
+                    }
                 }
-            }
+            }       
         }
 
         if (isUnderwater && floatersUnderwater == 0)
@@ -50,12 +59,6 @@ public class BuoyancyObject : MonoBehaviour
             isUnderwater = false;
             SwitchState(false);
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        
-       
     }
 
     private void SwitchState(bool isUnderwater)

@@ -321,6 +321,7 @@ MonoBehaviour:
   airAngularDrag: 0.05
   floatingPower: 100
   waterHeight: 0
+  waterCollider: {fileID: 0}
 --- !u!1001 &945384930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -994,6 +995,7 @@ MonoBehaviour:
   airAngularDrag: 0.05
   floatingPower: 100
   waterHeight: 0
+  waterCollider: {fileID: 0}
 --- !u!1 &2009515243
 GameObject:
   m_ObjectHideFlags: 0
