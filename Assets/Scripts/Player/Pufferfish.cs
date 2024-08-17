@@ -13,6 +13,13 @@ public class Pufferfish : MonoBehaviour
 
     public LayerMask waterLayer;        //Reference to the water sorting layer
 
+    public AudioSource source;      //Reference to the audio source component
+    public AudioClip inhaleClip;        //Reference to the inhale audio clip
+    public AudioClip exhaleClip;        //Reference to the exhale audio clip
+    public AudioClip boing;         //Reference to the boing audio clip
+    public AudioClip splash;        //Reference to the splash audio clip
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -43,12 +50,18 @@ public class Pufferfish : MonoBehaviour
             rb.AddRelativeForce(0, 0, -power, ForceMode.Impulse);
             transform.localScale = baseSize;
             power = basePower;
+
+            source.PlayOneShot(exhaleClip);
         }
     }
 
     //If the player holds the right mouse button and is in water, they will grow in size, increasing their push power
     void PuffUp()
     {
+        if(Input.GetMouseButtonDown(1))
+        {
+            source.PlayOneShot(inhaleClip);
+        }
         if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 14f) return;
@@ -61,5 +74,28 @@ public class Pufferfish : MonoBehaviour
     private bool InWater()
     {
         return Physics.CheckSphere(this.transform.position, 0.5f, waterLayer);
+    }
+
+    //Collision audio, plays when the player collides with ground/ water
+    void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.CompareTag("Ground"))
+        {
+            source.PlayOneShot(boing);
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Water"))
+        {
+            source.PlayOneShot(splash);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.CompareTag("Water"))
+        {
+            source.PlayOneShot(splash);
+        }
     }
 }
