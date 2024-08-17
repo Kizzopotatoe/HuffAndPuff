@@ -11,6 +11,8 @@ public class PauseManager : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.Instance.completedLevelMenu.activeSelf) return;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)

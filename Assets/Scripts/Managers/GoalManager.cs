@@ -9,22 +9,8 @@ public class GoalManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Get the active scenes build index
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-            // Check if there is a next scene available
-            if (currentSceneIndex < SceneManager.sceneCountInBuildSettings - 1)
-            {
-                // Load the next scene 
-                SceneManager.LoadScene(currentSceneIndex++);
-            }
-            else
-            {
-                // Reload the current scene
-                SceneManager.LoadScene(currentSceneIndex);
-
-                Debug.Log("No new scene to reload");
-            }
+            GameManager.Instance.completedLevelMenu.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
