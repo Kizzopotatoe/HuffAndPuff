@@ -69,6 +69,7 @@ public class Pufferfish : MonoBehaviour
         if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 14f && bigMode == false) return;
+            if(power >=25f) return;
             transform.localScale *= 1.1f;
             power += 1f;
         }
@@ -94,10 +95,22 @@ public class Pufferfish : MonoBehaviour
         {
             source.PlayOneShot(splash);
         }
+
+        if(other.gameObject.CompareTag("SuperWater"))
+        {
+            bigMode = true;
+
+            source.PlayOneShot(splash);
+        }
     }
     void OnTriggerExit(Collider other)
     {
         if(other.gameObject.CompareTag("Water"))
+        {
+            source.PlayOneShot(splash);
+        }
+
+        if(other.gameObject.CompareTag("SuperWater"))
         {
             source.PlayOneShot(splash);
         }
