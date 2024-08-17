@@ -262,7 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a10b5b31ec7344a91ae29065d2a654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 0
+  speed: 2
+  power: 1
   basePower: 1
   waterLayer:
     serializedVersion: 2
