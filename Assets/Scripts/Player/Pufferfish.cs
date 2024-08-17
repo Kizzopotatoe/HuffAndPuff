@@ -22,7 +22,7 @@ public class Pufferfish : MonoBehaviour
     public AudioClip boing;         //Reference to the boing audio clip
     public AudioClip splash;        //Reference to the splash audio clip
 
-    public Animator animator;
+    public Animator animator;       //Reference to the animator component
 
 
 
@@ -43,15 +43,6 @@ public class Pufferfish : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         rb.AddForce(horizontal * speed, vertical * speed, 0);
-
-        if(horizontal == 0 && vertical == 0)
-        {
-            animator.SetBool("isWiggling", false);
-        }
-        if(horizontal != 0 || vertical != 0)
-        {
-            animator.SetBool("isWiggling", true);
-        }
 
         if(InWater())
         {
@@ -98,7 +89,6 @@ public class Pufferfish : MonoBehaviour
             if(power >=30f) return;
 
             animator.SetBool("isInflated", true);
-            animator.SetBool("isWiggling", false);
 
             transform.localScale *= 1.07f;
             power += 0.7f; 
