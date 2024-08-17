@@ -38,6 +38,15 @@ public class Pufferfish : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
         rb.AddForce(horizontal * speed, 0, 0);
+
+        if(InWater())
+        {
+            rb.useGravity = false;
+        }
+        if(!InWater())
+        {
+            rb.useGravity = true;
+        }
     }
     void FixedUpdate()
     {
@@ -56,6 +65,7 @@ public class Pufferfish : MonoBehaviour
 
             transform.localScale = baseSize;
             power = basePower;
+            
         }
     }
 
@@ -70,8 +80,10 @@ public class Pufferfish : MonoBehaviour
         {
             if(power >= 14f && bigMode == false) return;
             if(power >=30f) return;
+
             transform.localScale *= 1.07f;
             power += 0.7f;
+            
         }
     }
 
@@ -98,10 +110,10 @@ public class Pufferfish : MonoBehaviour
 
         if(other.gameObject.CompareTag("SuperWater"))
         {
+            source.PlayOneShot(splash);
+
             //When the player enters 'super water' big mode is enabled
             bigMode = true;
-
-            source.PlayOneShot(splash);
         }
     }
     void OnTriggerExit(Collider other)
@@ -114,6 +126,9 @@ public class Pufferfish : MonoBehaviour
         if(other.gameObject.CompareTag("SuperWater"))
         {
             source.PlayOneShot(splash);
+
+            //When the player exits 'super water' big mode is disabled
+            bigMode = false;
         }
     }
 }
