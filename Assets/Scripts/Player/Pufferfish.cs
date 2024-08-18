@@ -104,10 +104,7 @@ public class Pufferfish : MonoBehaviour
     //Collision audio, plays when the player collides with ground/ water
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.CompareTag("Ground"))
-        {
-            source.PlayOneShot(boing);
-        }
+        source.PlayOneShot(boing);
     }
     void OnTriggerEnter(Collider other)
     {
