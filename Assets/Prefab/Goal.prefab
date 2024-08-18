@@ -61,10 +61,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d338b85f5eadd8e4fac0659f3dc022a7, type: 2}
-  - {fileID: 2100000, guid: cb8d501e3fc047a49a42656b6ea7d98e, type: 2}
-  - {fileID: 2100000, guid: 0b22d79d20e61a94fa601a0cb0c70efc, type: 2}
-  - {fileID: 2100000, guid: 8a4b7290701ced04faf69ff9d57a321b, type: 2}
+  - {fileID: 2100000, guid: 176d90b20720a0b4a8ea861565f2777f, type: 2}
+  - {fileID: 2100000, guid: fd82c46b5b0926240a78610ea715535f, type: 2}
+  - {fileID: 2100000, guid: efaa610a859de254791273cbdfb86411, type: 2}
+  - {fileID: 2100000, guid: 5d9938e55d9355b44b8d4f11e96f64c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -181,8 +181,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d338b85f5eadd8e4fac0659f3dc022a7, type: 2}
-  - {fileID: 2100000, guid: cb8d501e3fc047a49a42656b6ea7d98e, type: 2}
+  - {fileID: 2100000, guid: 176d90b20720a0b4a8ea861565f2777f, type: 2}
+  - {fileID: 2100000, guid: fd82c46b5b0926240a78610ea715535f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
