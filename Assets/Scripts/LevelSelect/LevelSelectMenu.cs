@@ -5,13 +5,10 @@ using UnityEngine.UI;
 public class LevelSelectMenu : MonoBehaviour
 {
     public Button[] buttons;
-    public GameObject levelButtons;
 
     private void Awake()
     {
-        ButtonsToArray();
-
-        int unlockedLevel = PlayerPrefs.GetInt("UnLockedLevel", 1);
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].interactable = false;
@@ -28,14 +25,8 @@ public class LevelSelectMenu : MonoBehaviour
         SceneManager.LoadScene(levelName);
     }
 
-    private void ButtonsToArray()
+    public void ResetGame()
     {
-        int childCount = levelButtons.transform.childCount;
-        buttons = new Button[childCount];
-
-        for (int i = 0; i < childCount; i++)
-        {
-            buttons[i] = levelButtons.transform.GetChild(i).gameObject.GetComponent<Button>();
-        }
+        PlayerPrefs.DeleteAll();
     }
 }
