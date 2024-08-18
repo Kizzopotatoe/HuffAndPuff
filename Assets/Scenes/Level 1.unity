@@ -628,9 +628,9 @@ GameObject:
   - component: {fileID: 82254003}
   - component: {fileID: 82254002}
   - component: {fileID: 82254001}
-  - component: {fileID: 82254000}
+  - component: {fileID: 82254004}
   m_Layer: 3
-  m_Name: Wood Plank (2)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -651,20 +651,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.462}
---- !u!114 &82254000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82253998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &82254001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -706,7 +692,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -736,6 +722,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82253998}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &82254004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82253998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &92219396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,9 +1094,9 @@ GameObject:
   - component: {fileID: 218440438}
   - component: {fileID: 218440437}
   - component: {fileID: 218440436}
-  - component: {fileID: 218440435}
+  - component: {fileID: 218440439}
   m_Layer: 3
-  m_Name: Wood Plank (7)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,20 +1117,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.064}
---- !u!114 &218440435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218440433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &218440436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1171,7 +1158,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1201,6 +1188,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218440433}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &218440439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218440433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &241510183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,7 +1921,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0611558, y: -13.649963, z: -9.056242}
+  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -9.056242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3198,9 +3200,9 @@ GameObject:
   - component: {fileID: 481146678}
   - component: {fileID: 481146677}
   - component: {fileID: 481146676}
-  - component: {fileID: 481146675}
+  - component: {fileID: 481146679}
   m_Layer: 3
-  m_Name: Wood Plank (11)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3221,20 +3223,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.673}
---- !u!114 &481146675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481146673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &481146676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3276,7 +3264,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3306,6 +3294,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481146673}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &481146679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481146673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1001 &495003105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3386,9 +3389,9 @@ GameObject:
   - component: {fileID: 495647533}
   - component: {fileID: 495647532}
   - component: {fileID: 495647531}
-  - component: {fileID: 495647530}
+  - component: {fileID: 495647534}
   m_Layer: 3
-  m_Name: Wood Plank (13)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3409,20 +3412,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -86.538}
---- !u!114 &495647530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495647528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &495647531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3464,7 +3453,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3494,6 +3483,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495647528}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &495647534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495647528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &512873143
 GameObject:
   m_ObjectHideFlags: 0
@@ -4464,7 +4468,7 @@ Transform:
   m_GameObject: {fileID: 619196196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0611558, y: -13.649963, z: -9.056242}
+  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -9.056242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5357,9 +5361,9 @@ GameObject:
   - component: {fileID: 755108545}
   - component: {fileID: 755108544}
   - component: {fileID: 755108543}
-  - component: {fileID: 755108542}
+  - component: {fileID: 755108546}
   m_Layer: 3
-  m_Name: Wood Plank (12)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5380,20 +5384,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.161}
---- !u!114 &755108542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755108540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &755108543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5435,7 +5425,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5465,6 +5455,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755108540}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &755108546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755108540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &767526186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5862,9 +5867,9 @@ GameObject:
   - component: {fileID: 804226846}
   - component: {fileID: 804226845}
   - component: {fileID: 804226844}
-  - component: {fileID: 804226843}
+  - component: {fileID: 804226847}
   m_Layer: 3
-  m_Name: Wood Plank (5)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5885,20 +5890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.254}
---- !u!114 &804226843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804226841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &804226844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5940,7 +5931,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5970,6 +5961,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804226841}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &804226847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804226841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &806179190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7389,9 +7395,9 @@ GameObject:
   - component: {fileID: 996737384}
   - component: {fileID: 996737383}
   - component: {fileID: 996737382}
-  - component: {fileID: 996737381}
+  - component: {fileID: 996737385}
   m_Layer: 3
-  m_Name: Wood Plank (6)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7412,20 +7418,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.355}
---- !u!114 &996737381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996737379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &996737382
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7467,7 +7459,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7497,9 +7489,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996737379}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &996737385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996737379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!4 &1003332703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4244804267241897061, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1830456328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1003332704 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6473028896058927708, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
     type: 3}
   m_PrefabInstance: {fileID: 1830456328}
   m_PrefabAsset: {fileID: 0}
@@ -8293,9 +8306,9 @@ GameObject:
   - component: {fileID: 1099604761}
   - component: {fileID: 1099604760}
   - component: {fileID: 1099604759}
-  - component: {fileID: 1099604758}
+  - component: {fileID: 1099604762}
   m_Layer: 3
-  m_Name: Wood Plank (9)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8316,20 +8329,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.352}
---- !u!114 &1099604758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099604756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &1099604759
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8371,7 +8370,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8401,6 +8400,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099604756}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1099604762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099604756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &1148425767
 GameObject:
   m_ObjectHideFlags: 0
@@ -10200,9 +10214,9 @@ GameObject:
   - component: {fileID: 1405144862}
   - component: {fileID: 1405144861}
   - component: {fileID: 1405144860}
-  - component: {fileID: 1405144859}
+  - component: {fileID: 1405144863}
   m_Layer: 3
-  m_Name: Wood Plank (4)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10223,20 +10237,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.254}
---- !u!114 &1405144859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405144857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &1405144860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10278,7 +10278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10308,6 +10308,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405144857}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1405144863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405144857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &1415762044
 GameObject:
   m_ObjectHideFlags: 0
@@ -11101,9 +11116,9 @@ GameObject:
   - component: {fileID: 1474527337}
   - component: {fileID: 1474527336}
   - component: {fileID: 1474527335}
-  - component: {fileID: 1474527334}
+  - component: {fileID: 1474527338}
   m_Layer: 3
-  m_Name: Wood Plank (1)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11124,20 +11139,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.462}
---- !u!114 &1474527334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474527332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &1474527335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11179,7 +11180,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11209,6 +11210,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474527332}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1474527338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474527332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &1479984905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12715,12 +12731,12 @@ PrefabInstance:
     - target: {fileID: 2633312532876967576, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.0611558
+      value: -1.1599998
       objectReference: {fileID: 0}
     - target: {fileID: 2633312532876967576, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.649963
+      value: -12.62
       objectReference: {fileID: 0}
     - target: {fileID: 2633312532876967576, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
@@ -13143,8 +13159,8 @@ Transform:
   m_GameObject: {fileID: 1898482136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4788, y: -14.379963, z: 0.943758}
-  m_LocalScale: {x: 3.5017805, y: 5.7227, z: 2.7759523}
+  m_LocalPosition: {x: 3.4788, y: -13.1702, z: 0.943758}
+  m_LocalScale: {x: 3.5017805, y: 3.3031425, z: 2.7759523}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 824164017}
@@ -13161,9 +13177,9 @@ GameObject:
   - component: {fileID: 1939388511}
   - component: {fileID: 1939388510}
   - component: {fileID: 1939388509}
-  - component: {fileID: 1939388508}
+  - component: {fileID: 1939388512}
   m_Layer: 3
-  m_Name: Wood Plank (10)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13184,20 +13200,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -4.352}
---- !u!114 &1939388508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939388506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &1939388509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13239,7 +13241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13269,6 +13271,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939388506}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1939388512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939388506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &1947264256
 GameObject:
   m_ObjectHideFlags: 0
@@ -13698,9 +13715,9 @@ GameObject:
   - component: {fileID: 2004254015}
   - component: {fileID: 2004254014}
   - component: {fileID: 2004254013}
-  - component: {fileID: 2004254012}
+  - component: {fileID: 2004254016}
   m_Layer: 3
-  m_Name: Wood Plank (3)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13721,20 +13738,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.116}
---- !u!114 &2004254012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004254010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &2004254013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13776,7 +13779,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13806,6 +13809,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004254010}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2004254016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004254010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &2017722888
 GameObject:
   m_ObjectHideFlags: 0
@@ -14357,9 +14375,9 @@ GameObject:
   - component: {fileID: 2086671992}
   - component: {fileID: 2086671991}
   - component: {fileID: 2086671990}
-  - component: {fileID: 2086671989}
+  - component: {fileID: 2086671993}
   m_Layer: 3
-  m_Name: Wood Plank (8)
+  m_Name: Stalactites
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14380,20 +14398,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 791421572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.912}
---- !u!114 &2086671989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086671987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f25b62300ee5a74283b0deb6e97d4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 431568697}
-  clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
 --- !u!65 &2086671990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14435,7 +14439,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 376dc393692eddc4c877be0a774f47ea, type: 2}
+  - {fileID: 2100000, guid: 47dd2ae1e56358e40b540084b734c16c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14465,6 +14469,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086671987}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2086671993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086671987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d598076ea993af14db47b103abddd905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1003332704}
+  clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  pufferfish: {fileID: 0}
 --- !u!1 &2088249299
 GameObject:
   m_ObjectHideFlags: 0

@@ -134,9 +134,6 @@ public class Pufferfish : MonoBehaviour
         if(other.gameObject.CompareTag("SuperWater"))
         {
             source.PlayOneShot(splash);
-
-            //When the player exits 'super water' big mode is disabled
-            bigMode = false;
         }
     }
 }
