@@ -1894,7 +1894,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 25
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1921,7 +1921,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -9.056242}
+  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -29.056242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4441,7 +4441,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1003332703}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 25
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -4468,7 +4468,7 @@ Transform:
   m_GameObject: {fileID: 619196196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -9.056242}
+  m_LocalPosition: {x: -1.1599998, y: -12.62, z: -29.056242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7902,52 +7902,52 @@ PrefabInstance:
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.2703
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.2703
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.2703
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 161.93584
+      value: 161.93282
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.221261
+      value: 2.223321
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.8386445
+      value: 0.8462563
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.934467
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.030142643
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.3452641
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.08158188
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
@@ -7957,12 +7957,17 @@ PrefabInstance:
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -40.556
       objectReference: {fileID: 0}
     - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 9.979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335618000715924697, guid: 0cd5f11e893627a4da018bd1dc865335,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6996445374678408371, guid: 0cd5f11e893627a4da018bd1dc865335,
         type: 3}
@@ -10181,7 +10186,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 10
+  m_CameraDistance: 30
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0

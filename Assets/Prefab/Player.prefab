@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3208063b6e64a364caf6d9cf5792f8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 10
+  offset: 30
   pufferfish: {fileID: 0}
 --- !u!1 &7450573260501782567
 GameObject:

@@ -21,7 +21,7 @@ public class FollowMouse : MonoBehaviour
 
         if(pufferfish.bigMode == true)
         {
-            offset = 30f;
+            offset = 80f;
         }
     }
 }
