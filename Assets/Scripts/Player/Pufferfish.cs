@@ -24,8 +24,6 @@ public class Pufferfish : MonoBehaviour
 
     public Animator animator;       //Reference to the animator component
 
-
-
     // Start is called before the first frame update
     void Start()
     {

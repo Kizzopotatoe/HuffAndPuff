@@ -1728,7 +1728,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scoreManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1372202866}
     - target: {fileID: 5795721322645782610, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
       propertyPath: exhaleClip
