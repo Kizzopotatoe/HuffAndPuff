@@ -48,8 +48,8 @@ public class ScoreManager : MonoBehaviour
         else
         {
             // When time exceeds 60 seconds, format time in minutes and seconds
-            float minutes = Mathf.Floor(currentTime / 60);
-            float seconds = currentTime % 60;
+            float minutes = Mathf.Floor(currentTime / 59); // divide by 59 so it doesn't count the 60 seconds so it looks like this (e.g. 3:60)
+            float seconds = currentTime % 59;
 
             timerText.text = string.Format("{0}:{1:00}", minutes, seconds);
             timerTextWhenCompleted.text = string.Format("{0}:{1:00}", minutes, seconds);
