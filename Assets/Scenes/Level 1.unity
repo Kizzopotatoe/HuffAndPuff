@@ -12539,6 +12539,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4677873286968596491, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+        type: 3}
+      propertyPath: collectableExplosionEffect
+      value: 
+      objectReference: {fileID: 2660209409363963468, guid: 05df71b0641b2b841880669eabc2816e,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

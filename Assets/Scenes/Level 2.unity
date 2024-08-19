@@ -9039,7 +9039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
-  crumblingEffect: {fileID: 0}
   explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
     type: 3}
 --- !u!23 &1185116699
@@ -12591,7 +12590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
-  crumblingEffect: {fileID: 0}
   explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
     type: 3}
 --- !u!23 &1661765015
@@ -13194,6 +13192,12 @@ PrefabInstance:
       propertyPath: scoreManager
       value: 
       objectReference: {fileID: 1208257981}
+    - target: {fileID: 4677873286968596491, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
+        type: 3}
+      propertyPath: collectableExplosionEffect
+      value: 
+      objectReference: {fileID: 2660209409363963468, guid: 05df71b0641b2b841880669eabc2816e,
+        type: 3}
     - target: {fileID: 5795721322645782610, guid: 0c7494b228bcf2147935eab2cb7e4eb6,
         type: 3}
       propertyPath: exhaleClip
@@ -14451,7 +14455,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
-  crumblingEffect: {fileID: 0}
   explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
     type: 3}
 --- !u!23 &2021658161
