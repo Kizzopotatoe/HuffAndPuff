@@ -99,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
+  explosionEffect: {fileID: 4230540932528591636, guid: 34e40c8ff08274541a5b1f785d1eb092,
+    type: 3}
 --- !u!65 &6039769731649635959
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -24,9 +24,12 @@ public class Pufferfish : MonoBehaviour
 
     public Animator animator;       //Reference to the animator component
 
+    private PufferfishEffects effects;
+
     // Start is called before the first frame update
     void Start()
     {
+        effects = GetComponentInChildren<PufferfishEffects>();
         rb = FindObjectOfType<Rigidbody>();
         baseSize = transform.localScale;
         power = basePower;
@@ -109,11 +112,13 @@ public class Pufferfish : MonoBehaviour
         if(other.gameObject.CompareTag("Water"))
         {
             source.PlayOneShot(splash);
+            effects.SplashWaterEffect();
         }
 
         if(other.gameObject.CompareTag("SuperWater"))
         {
             source.PlayOneShot(splash);
+            effects.SplashSuperWaterEffect();
 
             //When the player enters 'super water' big mode is enabled
             bigMode = true;

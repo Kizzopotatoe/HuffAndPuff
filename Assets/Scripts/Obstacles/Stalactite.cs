@@ -6,6 +6,8 @@ public class Stalactite : MonoBehaviour
     public AudioClip clip;
     public Pufferfish pufferfish;
 
+    public GameObject explosionEffect;
+
     //If the player collides with this object it will be destroyed
     void OnCollisionEnter(Collision other)
     {
@@ -16,6 +18,9 @@ public class Stalactite : MonoBehaviour
             if(pufferfish.bigMode == false) return;
 
             source.PlayOneShot(clip);
+            GameObject explosionEffectPrefab = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            Destroy(explosionEffectPrefab, 2f);
+
             Destroy(this.gameObject);
         }
     }

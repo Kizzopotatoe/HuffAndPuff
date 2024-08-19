@@ -100,6 +100,8 @@ MonoBehaviour:
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!64 &3494243705442765342
 MeshCollider:
   m_ObjectHideFlags: 0

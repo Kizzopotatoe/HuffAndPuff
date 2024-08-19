@@ -4622,6 +4622,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!23 &598159539
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9037,6 +9039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  crumblingEffect: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!23 &1185116699
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12586,6 +12591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  crumblingEffect: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!23 &1661765015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14443,6 +14451,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 767526188}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
+  crumblingEffect: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!23 &2021658161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15621,6 +15632,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!33 &819593641812947439
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15750,6 +15763,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!23 &1980796018635558716
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16274,6 +16289,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!33 &4668830128007143714
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16333,6 +16350,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!64 &6595779041334570242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16412,6 +16431,8 @@ MonoBehaviour:
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
   pufferfish: {fileID: 0}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!4 &7903303977569124252 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 83024330838256109, guid: ee38214aa0be21c49a634038dec437b6,
