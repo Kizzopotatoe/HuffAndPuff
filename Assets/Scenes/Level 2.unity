@@ -17168,7 +17168,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1280295251}
   - {fileID: 918782691}
-  speed: 1.5
+  speed: 2
   checkDistance: 0.05
 --- !u!1 &1656481090
 GameObject:
@@ -20509,7 +20509,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 389389376}
   - {fileID: 914051880}
-  speed: 1.5
+  speed: 2.5
   checkDistance: 0.05
 --- !u!1001 &2012659137
 PrefabInstance:
