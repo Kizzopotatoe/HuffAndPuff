@@ -50,6 +50,7 @@ public class ScoreManager : MonoBehaviour
             // When time exceeds 60 seconds, format time in minutes and seconds
             float minutes = Mathf.Floor(currentTime / 60);
             float seconds = currentTime % 60;
+
             timerText.text = string.Format("{0}:{1:00}", minutes, seconds);
             timerTextWhenCompleted.text = string.Format("{0}:{1:00}", minutes, seconds);
 
@@ -57,6 +58,7 @@ public class ScoreManager : MonoBehaviour
             minutesText.gameObject.SetActive(true);
             secondsText.gameObject.SetActive(false);
         }
+
 
     }
 

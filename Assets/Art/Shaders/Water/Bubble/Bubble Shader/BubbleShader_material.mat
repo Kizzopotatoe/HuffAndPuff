@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1404451404845286014
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_StylizedBubble
-  m_Shader: {fileID: -6465566751694194690, guid: 47f5876c20627454baf8ceafd8a97c11,
+  m_Name: BubbleShader_material
+  m_Shader: {fileID: -6465566751694194690, guid: 3816ac240d6c7464487e053f599b577e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -51,20 +38,37 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ExcludeFromFoam: 1
-    - _FoamAmount: 0.22
-    - _FoamCutoff: 5
-    - _FoamScale: 5
-    - _FoamSpeed: 0.05
+    - _AddAlpha: 1.57
+    - _BlendOpacity: 1
+    - _BlendSharpness: 1
+    - _Brightness: 0.08
+    - _DivideColour: 1
+    - _Float: 0.91
+    - _FresnelPower: 0.69
+    - _FresnelScale: 1
+    - _GradientNoise: 10
+    - _NoiseSubtraction: 0.605
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 0.5
-    - _RefractionSpeed: 0.1
-    - _RefractionStrength: 0.5
-    - _Transparency: 0.8
-    - _WaterDepth: -1
+    - _RenderFront: 1
+    - _Speed: 0.05
     m_Colors:
-    - _DeepWater: {r: 0, g: 1, b: 0.98823524, a: 0.5019608}
-    - _FoamColour: {r: 2, g: 2, b: 2, a: 0.6156863}
-    - _ShallowWater: {r: 0.0141509175, g: 0.8605195, b: 1, a: 0.7019608}
+    - _BottomColour: {r: 0, g: 0.083981514, b: 1, a: 1}
+    - _BubbleColour: {r: 0, g: 0.6591742, b: 1, a: 1}
+    - _Colour: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseColour: {r: 0.9543841, g: 0.3537736, b: 1, a: 1}
+    - _TopColour: {r: 0, g: 1, b: 0.7672777, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &1067915129896660281
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

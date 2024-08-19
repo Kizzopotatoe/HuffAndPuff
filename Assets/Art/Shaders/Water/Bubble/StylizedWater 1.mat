@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1404451404845286014
+--- !u!114 &-2913773171748471415
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_StylizedBubble
-  m_Shader: {fileID: -6465566751694194690, guid: 47f5876c20627454baf8ceafd8a97c11,
+  m_Name: StylizedWater 1
+  m_Shader: {fileID: -6465566751694194690, guid: a825a6e56568f8f4e809096bb6f0f0a9,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -30,7 +30,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -51,20 +51,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ExcludeFromFoam: 1
-    - _FoamAmount: 0.22
-    - _FoamCutoff: 5
-    - _FoamScale: 5
-    - _FoamSpeed: 0.05
+    - _ExcludeFromFoam: 0.5
+    - _FoamAmount: 1.74
+    - _FoamCutoff: 0.59
+    - _FoamScale: 1.1
+    - _FoamSpeed: 0.4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 0.5
-    - _RefractionSpeed: 0.1
-    - _RefractionStrength: 0.5
-    - _Transparency: 0.8
-    - _WaterDepth: -1
+    - _RefractionScale: 0
+    - _RefractionSpeed: 0
+    - _RefractionStrength: 0
+    - _Transparency: 1.2
+    - _WaterDepth: 10
     m_Colors:
-    - _DeepWater: {r: 0, g: 1, b: 0.98823524, a: 0.5019608}
-    - _FoamColour: {r: 2, g: 2, b: 2, a: 0.6156863}
-    - _ShallowWater: {r: 0.0141509175, g: 0.8605195, b: 1, a: 0.7019608}
+    - _DeepWater: {r: 0, g: 0.896049, b: 1, a: 0.4392157}
+    - _FoamColour: {r: 1, g: 1, b: 1, a: 1}
+    - _ShallowWater: {r: 0, g: 0.6745095, b: 1, a: 0.24705882}
   m_BuildTextureStacks: []
