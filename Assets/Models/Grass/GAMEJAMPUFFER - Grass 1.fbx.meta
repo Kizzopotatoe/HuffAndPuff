@@ -3,7 +3,12 @@ guid: 9deb872e2afd3fc40809bf0009c3e0b5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass Shreds - Gradient
+    second: {fileID: 2100000, guid: 7b92973b89e5adc428841046d1d4e888, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
