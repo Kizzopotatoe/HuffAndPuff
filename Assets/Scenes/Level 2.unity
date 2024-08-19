@@ -15906,6 +15906,11 @@ PrefabInstance:
       propertyPath: source
       value: 
       objectReference: {fileID: 767526188}
+    - target: {fileID: 2991459302835497512, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3120144758865428926, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15961,8 +15966,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedStone
       objectReference: {fileID: 0}
+    - target: {fileID: 7383448856271937445, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729587831662348176, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729587831662348176, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729587831662348176, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0038
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7383448856271937445, guid: 4e63752e7c8b8db41b5d9ab8a18fd471, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e63752e7c8b8db41b5d9ab8a18fd471, type: 3}

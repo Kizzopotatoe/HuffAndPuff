@@ -4243,8 +4243,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 7a71fcd74fa48634e97f8c416cddab1b, type: 3}
-  crumblingEffect: {fileID: 0}
-  explosionEffect: {fileID: 0}
+  crumblingEffect: {fileID: 184880345366532449, guid: 2914da2877f8e2940b597ed46a091817,
+    type: 3}
+  explosionEffect: {fileID: 8660317935313556889, guid: 3684788cddf6e7b4f87b28d6fcb7191f,
+    type: 3}
 --- !u!1 &652319737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +5682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 431568697}
   clip: {fileID: 8300000, guid: 4979d149fa43aad498386e8cc5c22955, type: 3}
+  explosionEffect: {fileID: 4230540932528591636, guid: 34e40c8ff08274541a5b1f785d1eb092,
+    type: 3}
 --- !u!1 &877993762
 GameObject:
   m_ObjectHideFlags: 0
