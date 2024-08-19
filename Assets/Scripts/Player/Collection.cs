@@ -8,6 +8,8 @@ public class Collection : MonoBehaviour
 
     public ScoreManager scoreManager;
 
+    public GameObject collectableExplosionEffect;
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectible"))
@@ -19,6 +21,10 @@ public class Collection : MonoBehaviour
             }
 
             source.PlayOneShot(clip);
+
+            GameObject collectableExplosionPrefab = Instantiate(collectableExplosionEffect, other.transform.position, Quaternion.identity);
+            Destroy(collectableExplosionPrefab, 1f);
+
             Destroy(other.gameObject);
         }
     }
