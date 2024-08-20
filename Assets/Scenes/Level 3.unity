@@ -11260,7 +11260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
-  bubblePopEffect: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1 &536642066
 GameObject:
   m_ObjectHideFlags: 0
