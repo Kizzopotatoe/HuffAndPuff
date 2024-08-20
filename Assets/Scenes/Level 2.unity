@@ -15655,6 +15655,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0718061c95dbf3478b15f787573066b, type: 3}
+--- !u!1 &1226441683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7857822080068769883, guid: 44c6d304af9339b47a467f1ea13c3d00,
+    type: 3}
+  m_PrefabInstance: {fileID: 1381443624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1226901963
 GameObject:
   m_ObjectHideFlags: 0
@@ -16348,7 +16354,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7857822080068769883, guid: 44c6d304af9339b47a467f1ea13c3d00,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1381443626}
   m_SourcePrefab: {fileID: 100100000, guid: 44c6d304af9339b47a467f1ea13c3d00, type: 3}
 --- !u!4 &1381443625 stripped
 Transform:
@@ -16356,6 +16366,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1381443624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1381443626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226441683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1bb3db7cac818409b918328dd44e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1 &1388275575
 GameObject:
   m_ObjectHideFlags: 0
