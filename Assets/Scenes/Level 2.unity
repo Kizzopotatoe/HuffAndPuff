@@ -17340,13 +17340,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661765011}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5585766, y: 0.43078902, z: 0.5515152, w: 0.44524607}
-  m_LocalPosition: {x: 26.34, y: 21.14, z: 0.19}
+  m_LocalRotation: {x: -0.5429548, y: 0.44947693, z: 0.53639424, w: 0.46416792}
+  m_LocalPosition: {x: 26.259, y: 21.479, z: 0.192}
   m_LocalScale: {x: 135.27763, y: 250.68929, z: 23.649927}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 791421572}
-  m_LocalEulerAnglesHint: {x: -76.552, y: -88.811, z: 177.569}
+  m_LocalEulerAnglesHint: {x: -80.484, y: -87.802, z: 176.58}
 --- !u!65 &1661765013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22383,12 +22383,12 @@ PrefabInstance:
     - target: {fileID: 3120144758865428926, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.35
+      value: 18.33
       objectReference: {fileID: 0}
     - target: {fileID: 3120144758865428926, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.97
+      value: 20.07
       objectReference: {fileID: 0}
     - target: {fileID: 3120144758865428926, guid: 4e63752e7c8b8db41b5d9ab8a18fd471,
         type: 3}
@@ -22947,6 +22947,7 @@ GameObject:
   - component: {fileID: 975945885489002760}
   - component: {fileID: 742521749986406072}
   - component: {fileID: 3494243706402121365}
+  - component: {fileID: 7922673356376040321}
   m_Layer: 0
   m_Name: Stalactite 2
   m_TagString: Untagged
@@ -22954,6 +22955,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7922673356376040321
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922673356376040320}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.007796271, y: 0.009203839, z: 0.0030341311}
+  m_Center: {x: -0.0014845021, y: -0.001396591, z: 0.018344346}
 --- !u!4 &8078495633823344129
 Transform:
   m_ObjectHideFlags: 0
