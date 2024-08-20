@@ -4,6 +4,8 @@ public class BubblePop : MonoBehaviour
 {
     public Pufferfish pufferfish;
 
+    public GameObject bubblePopEffect;
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
@@ -12,6 +14,9 @@ public class BubblePop : MonoBehaviour
 
             if(pufferfish.bigMode == true)
             {
+                GameObject bubblePopPrefab = Instantiate(bubblePopEffect, transform.position, Quaternion.identity);
+                Destroy(bubblePopPrefab, 2f);
+
                 Destroy(this.gameObject);
             }
         }
