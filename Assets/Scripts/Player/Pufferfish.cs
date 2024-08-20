@@ -57,6 +57,17 @@ public class Pufferfish : MonoBehaviour
     void FixedUpdate()
     {
         PuffUp();
+
+        //If big mode is activated, automatically grow to full size
+        if(bigMode == true)
+        {
+            if(power >=30f) return;
+
+            animator.SetBool("isInflated", true);
+
+            transform.localScale *= 1.07f;
+            power += 0.7f; 
+        }
     }
 
     //If the player presses the left mouse button, they will launch backwards proportional to their push power, and return to their base size
@@ -87,7 +98,7 @@ public class Pufferfish : MonoBehaviour
         if(Input.GetMouseButton(1) && InWater())
         {
             if(power >= 14f && bigMode == false) return;
-            if(power >=30f) return;
+            if(bigMode == true) return;
 
             animator.SetBool("isInflated", true);
 
