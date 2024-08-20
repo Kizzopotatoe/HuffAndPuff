@@ -2045,6 +2045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &95530982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3015,6 +3017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &142456561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6589,6 +6593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1 &299904171
 GameObject:
   m_ObjectHideFlags: 0
@@ -8351,6 +8357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &386286901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11252,6 +11260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 0}
 --- !u!1 &536642066
 GameObject:
   m_ObjectHideFlags: 0
@@ -15767,6 +15776,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &711198184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6391bb4f8b62ce5458427f200cc75b0f,
@@ -18354,6 +18365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &846840402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19889,6 +19902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &948340348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d228dd741d635024fa0940434e6c0f65,
@@ -20495,6 +20510,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1 &971144168
 GameObject:
   m_ObjectHideFlags: 0
@@ -21733,6 +21750,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1017719760 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2d19f362b2ab4642954232569e6f7fb,
@@ -22804,6 +22823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1066678083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6391bb4f8b62ce5458427f200cc75b0f,
@@ -36342,6 +36363,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1785660249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b5295bf2d1455ee479572534e7816594,
@@ -36616,6 +36639,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1810353339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2d19f362b2ab4642954232569e6f7fb,
@@ -40432,6 +40457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1973147279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4165164535657160603, guid: 44c6d304af9339b47a467f1ea13c3d00,
@@ -40759,6 +40786,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &1986351665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40876,6 +40905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &1987672432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d228dd741d635024fa0940434e6c0f65,
@@ -41492,6 +41523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!1001 &2020220479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42739,6 +42772,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pufferfish: {fileID: 0}
+  bubblePopEffect: {fileID: 9130030779748596196, guid: 632d0d284f939ec48892c67d5a72a0a8,
+    type: 3}
 --- !u!4 &2094855598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d228dd741d635024fa0940434e6c0f65,
