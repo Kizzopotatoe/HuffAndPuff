@@ -10,6 +10,7 @@ public class Swimming : MonoBehaviour
         rb = FindObjectOfType<Rigidbody>();
     }
 
+    //Enables and disables the effect of gravity on the player character depending on if they are in water
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Water"))

@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.Animations;
 
 public class Pufferfish : MonoBehaviour
 {
+    //References & Variables----------------------------------------------------------------------------------------------------------------//
+
     private Rigidbody rb;       //Reference to the players rigidbody component
 
     private float horizontal;       //Stores horizontal movement variable
@@ -24,13 +25,18 @@ public class Pufferfish : MonoBehaviour
 
     public Animator animator;       //Reference to the animator component
 
-    private PufferfishEffects effects;
+    private PufferfishEffects effects;      //Reference to the VFX script
+
+    //Start & Update Methods----------------------------------------------------------------------------------------------------------------//
 
     // Start is called before the first frame update
     void Start()
     {
+        //Stores referenced scripts
         effects = GetComponentInChildren<PufferfishEffects>();
         rb = FindObjectOfType<Rigidbody>();
+
+        //Resets player values at the start of play
         baseSize = transform.localScale;
         power = basePower;
         bigMode = false;
@@ -70,6 +76,8 @@ public class Pufferfish : MonoBehaviour
         }
     }
 
+    //Custom Methods----------------------------------------------------------------------------------------------------------------//
+
     //If the player presses the left mouse button, they will launch backwards proportional to their push power, and return to their base size
     void HuffOut()
     {
@@ -106,6 +114,8 @@ public class Pufferfish : MonoBehaviour
             power += 0.7f; 
         }
     }
+
+    //Collision Methods----------------------------------------------------------------------------------------------------------------//
 
     //Creates a sphere at the center of the player character to check if they are currently in water, and returns a boolean
     private bool InWater()

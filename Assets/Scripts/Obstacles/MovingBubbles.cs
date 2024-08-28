@@ -26,6 +26,7 @@ public class MovingBubbles : MonoBehaviour
         }
     }
 
+    //Returns the transform component of the next waypoint in the array
     private Transform GetNextWaypoint()
     {
         currentWaypointIndex++;

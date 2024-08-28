@@ -30,14 +30,14 @@ public class PauseManager : MonoBehaviour
     {
         isPaused = true;
         pauseMenu.SetActive(true);
-        //pauseButton.SetActive(false);
+
         Time.timeScale = 0;
     }
     public void Resume()
     {
         isPaused = false;
         pauseMenu.SetActive(false);
-        //pauseButton.SetActive(true);
+
         Time.timeScale = 1;
     }
 
